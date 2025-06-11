@@ -1,4 +1,5 @@
 <?php
+require "connexion.php";
 
 $query = $db ->prepare("SELECT * FROM users");
 $parameters = [
