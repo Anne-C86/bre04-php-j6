@@ -13,3 +13,5 @@ $db = new PDO(
 );
 
 var_dump($db);
+
+require "get_all_users.php";
