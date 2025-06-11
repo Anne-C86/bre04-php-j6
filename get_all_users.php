@@ -5,5 +5,7 @@ $parameters = [
 
 ];
 $query->execute($parameters);
+$users = $query->fetchAll(PDO::FETCH_ASSOC);
 
 var_dump($query);
+var_dump($users);
